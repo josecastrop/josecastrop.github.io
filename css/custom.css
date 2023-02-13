@@ -45,12 +45,12 @@ h5 {
 }
 
 p a {
-    border-bottom: 1px dashed;
-    color: #FFCE00;
+    border-bottom: 2px dashed;
+    color: #333652;
 }
 
 p a:hover {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     color: #FFCE00;
     text-decoration: none;
 }
@@ -93,6 +93,26 @@ footer {
     background-color: #ffcc33;
 }
 
+footer .menu a {
+    color: #042c49;
+    border-bottom: 2px dashed;
+    margin-right:10px;
+}
+
+footer .grid{
+    text-align: right !important;
+}
+
+.signature {
+    font-size: 14px;
+    font-weight: bold;
+    color: #042c49;
+}
+
+.signature .icon-heart {
+    color: #F51720;
+}
+
 .yellow-dot {
     color: #FFCE00;
 }
@@ -103,11 +123,11 @@ footer {
 
 @font-face {
     font-family: 'josecastrodev';
-    src:  url('../fonts/josecastrodev.eot?btts8t');
-    src:  url('../fonts/josecastrodev.eot?btts8t#iefix') format('embedded-opentype'),
-    url('../fonts/josecastrodev.ttf?btts8t') format('truetype'),
-    url('../fonts/josecastrodev.woff?btts8t') format('woff'),
-    url('../fonts/josecastrodev.svg?btts8t#josecastrodev') format('svg');
+    src:  url('../fonts/josecastrodev.eot?6e0qgf');
+    src:  url('../fonts/josecastrodev.eot?6e0qgf#iefix') format('embedded-opentype'),
+    url('../fonts/josecastrodev.ttf?6e0qgf') format('truetype'),
+    url('../fonts/josecastrodev.woff?6e0qgf') format('woff'),
+    url('../fonts/josecastrodev.svg?6e0qgf#josecastrodev') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -131,8 +151,17 @@ footer {
 .icon-location2:before {
     content: "\e948";
 }
-.icon-mail4:before {
-    content: "\ea86";
+.icon-bubble:before {
+    content: "\e96b";
+}
+.icon-contrast:before {
+    content: "\e9d5";
+}
+.icon-heart:before {
+    content: "\e9da";
+}
+.icon-arrow-up:before {
+    content: "\ea32";
 }
 .icon-facebook2:before {
     content: "\ea91";
@@ -149,5 +178,3 @@ footer {
 .icon-linkedin:before {
     content: "\eac9";
 }
-
-
