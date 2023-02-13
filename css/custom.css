@@ -45,7 +45,14 @@ h5 {
 }
 
 p a {
-    color: #ffcc33;
+    border-bottom: 1px dashed;
+    color: #FFCE00;
+}
+
+p a:hover {
+    border-bottom: 1px solid;
+    color: #FFCE00;
+    text-decoration: none;
 }
 
 body {
@@ -62,6 +69,10 @@ header h1 {
 
 header hgroup.header {
     margin-bottom: 0.6rem;
+}
+
+header hgroup.header h2 {
+    color: rgb(65 84 98);
 }
 
 .social a {
@@ -83,7 +94,7 @@ footer {
 }
 
 .yellow-dot {
-    color: #ffcc33;
+    color: #FFCE00;
 }
 
 /**
@@ -104,7 +115,7 @@ footer {
 
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'josecastrodev' !important;
+    font-family: 'josecastrodev', serif !important;
     speak: never;
     font-style: normal;
     font-weight: normal;

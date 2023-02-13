@@ -10,107 +10,131 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="canonical" href="https://josecastro.dev">
 </head>
-<body class="container">
-    <header class="grid">
-        <section>
-            <hgroup class="header">
-                <h1 data-lang="en">Hello, I'm Jose<span class="yellow-dot">.</span></h1>
-                <h1 data-lang="es">Hola, soy Jose<span class="yellow-dot">.</span></h1>
-                <h1 data-lang="gl">Ola, son Jose<span class="yellow-dot">.</span></h1>
-                <h2>
-                    <span data-lang="en">Software developer specialized in Drupal.</span>
-                    <span data-lang="es">Desarrollador de software especializado en Drupal.</span>
-                    <span data-lang="gl">Desenvolvedor de software especializado en Drupal.</span>
-                </h2>
-            </hgroup>
+<body>
+    <header class="container">
+        <div class="grid">
+            <div>
+                <hgroup class="header">
+                    <h1 data-lang="en">Hello, I'm Jose<span class="yellow-dot">.</span></h1>
+                    <h1 data-lang="es">Hola, soy Jose<span class="yellow-dot">.</span></h1>
+                    <h1 data-lang="gl">Ola, son Jose<span class="yellow-dot">.</span></h1>
+                    <h2>
+                        <span data-lang="en">Software developer specialized in Drupal.</span>
+                        <span data-lang="es">Desarrollador de software especializado en Drupal.</span>
+                        <span data-lang="gl">Desenvolvedor de software especializado en Drupal.</span>
+                    </h2>
+                </hgroup>
+                <nav class="social">
+                    <ul>
+                        <li><a href="https://github.com/josecastrop" aria-label="Github" target="_blank"><span class="icon-github"></span></a></li>
+                        <li><a href="https://linkedin.com/in/josecastrodev" aria-label="LinkedIn" target="_blank"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="https://twitter.com/josecastro_dev" aria-label="Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li><a href="https://instagram.com/josecastrop" aria-label="Instagram" target="_blank"><span class="icon-instagram"></span></a></li>
+                        <li data-lang="en"><a href="https://goo.gl/maps/kmkBG2ziPZZnYKzU8" data-tooltip="Based in Santiago de Compostela" data-placement="bottom" aria-label="Based in Santiago de Compostela" target="_blank"><span class="icon-location2"></span></a></li>
+                        <li data-lang="es"><a href="https://goo.gl/maps/kmkBG2ziPZZnYKzU8" data-tooltip="Santiago de Compostela" data-placement="bottom" aria-label="Santiago de Compostela" target="_blank"><span class="icon-location2"></span></a></li>
+                        <li data-lang="gl"><a href="https://goo.gl/maps/kmkBG2ziPZZnYKzU8" data-tooltip="Santiago de Compostela" data-placement="bottom" aria-label="Santiago de Compostela" target="_blank"><span class="icon-location2"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section>
+                <select id="change-language" aria-label="Language">
+                    <option value="en" selected="selected">English</option>
+                    <option value="es">Español</option>
+                    <option value="gl">Galego</option>
+                </select>
+            </section>
+        </div>
+    </header>
+    <main class="container">
+        <div class="grid content">
+            <section class="left">
+                <div class="aboutme">
+                    <h3 data-lang="en">About me<span class="yellow-dot">.</span></h3>
+                    <h3 data-lang="es">Sobre mi<span class="yellow-dot">.</span></h3>
+                    <h3 data-lang="gl">Sobre min<span class="yellow-dot">.</span></h3>
+                    <p data-lang="en">I was born in Miami in 1989 as the son of a Peruvian mother and a Spanish father, my ancestors have been migrants for generations, this is something I carry inside me and it shapes my way of being and thinking. I have lived in Santiago de Compostela since my childhood.</p>
+                    <p data-lang="es">I was born in Miami in 1989 as the son of a Peruvian mother and a Spanish father, my ancestors have been migrants for generations, this is something I carry inside me and it shapes my way of being and thinking. I have lived in Santiago de Compostela since my childhood.</p>
+                    <p data-lang="gl">I was born in Miami in 1989 as the son of a Peruvian mother and a Spanish father, my ancestors have been migrants for generations, this is something I carry inside me and it shapes my way of being and thinking. I have lived in Santiago de Compostela since my childhood.</p>
+
+                    <p data-lang="en">In 1997 I was given my first computer and from the first moment I saw it I knew that I wanted my life to revolve around this technology. A few months later, the Internet came to my home, and it changed everything forever.</p>
+                    <p data-lang="es">In 1997 I was given my first computer and from the first moment I saw it I knew that I wanted my life to revolve around this technology. A few months later, the Internet came to my home, and it changed everything forever.</p>
+                    <p data-lang="gl">In 1997 I was given my first computer and from the first moment I saw it I knew that I wanted my life to revolve around this technology. A few months later, the Internet came to my home, and it changed everything forever.</p>
+                </div>
+                <div>
+                    <h4 data-lang="en">Interest<span class="yellow-dot">.</span></h4>
+                    <h4 data-lang="es">Intereses<span class="yellow-dot">.</span></h4>
+                    <h4 data-lang="gl">Intereses<span class="yellow-dot">.</span></h4>
+                    <ul>
+                        <li>Movies & Books</li>
+                        <li>Sports (Obradoiro & Barça)</li>
+                        <li>Technology & Science</li>
+                        <li>Geography & History</li>
+                    </ul>
+
+
+                </div>
+            </section>
+            <section class="right">
+                <div class="work-experience">
+                    <h3 data-lang="en">Work experience<span class="yellow-dot">.</span></h3>
+                    <h3 data-lang="es">Experiencia laboral<span class="yellow-dot">.</span></h3>
+                    <h3 data-lang="gl">Experiencia laboral<span class="yellow-dot">.</span></h3>
+                    <p>In 2008 I began studying for the "Advanced Expert in Developing Computer Apps" certificate and completed it in 2010 after a few months of internship in Dublin developing websites for an Irish travel agency.</p>
+                    <p>I worked as a freelancer until 2015. I developed websites in various PHP-based technologies such as WordPress, Drupal or Codeigniter.</p>
+                    <p>From 2015 until now I have been working at <a href="https://balidea.com" target="_blank">Balidea</a> as a web developer specialising in Drupal. During these years I have developed websites for different organisations depending on both the Galician and Spanish governments, although my work is mainly developed on websites of United Nations agencies.</p>
+                </div>
+                <div>
+                    <h4 data-lang="en">Skills<span class="yellow-dot">.</span></h4>
+                    <h4 data-lang="es">Habilidades<span class="yellow-dot">.</span></h4>
+                    <h4 data-lang="gl">Habilidades<span class="yellow-dot">.</span></h4>
+                    <h6 data-lang="en">Advanced (all days)</h6>
+                    <h6 data-lang="es">Avanzado (todos los dias)</h6>
+                    <h6 data-lang="gl">Avanzado (todos os dias)</h6>
+                    <nav>
+                        <ul>
+                            <li><img src="assets/logos/drupal.png" alt="Drupal" /></li>
+                            <li><img src="assets/logos/php.png" alt="PHP" /></li>
+                            <li><img src="assets/logos/mysql.png" alt="MySQL" /></li>
+                            <li><img src="assets/logos/mariadb.png" alt="MariaDB" /></li>
+                            <li><img src="assets/logos/javascript.png" alt="JavaScript" /></li>
+                            <li><img src="assets/logos/docker.png" alt="Docker" /></li>
+                            <li><img src="assets/logos/phpstorm.png" alt="PHPStorm" /></li>
+                        </ul>
+                    </nav>
+
+                    <h6 data-lang="en">Intermediate (frequently)</h6>
+                    <h6 data-lang="es">Intermedio (frecuentemente)</h6>
+                    <h6 data-lang="gl">Intermedio (frecuentemente)</h6>
+                    <nav>
+                        <ul>
+                            <li><img src="assets/logos/angularjs.png" alt="Angular" /></li>
+                            <li><img src="assets/logos/sass.png" alt="SASS" /></li>
+                            <li><img src="assets/logos/nodejs.png" alt="Node" /></li>
+                            <li><img src="assets/logos/npm.png" alt="npm" /></li>
+                            <li><img src="assets/logos/moodle.png" alt="Moodle" /></li>
+                            <li><img src="assets/logos/wordpress.png" alt="WordPress" /></li>
+                            <li><img src="assets/logos/prestashop.png" alt="Prestashop" /></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="container">
             <nav class="social">
                 <ul>
                     <li><a href="https://github.com/josecastrop" aria-label="Github" target="_blank"><span class="icon-github"></span></a></li>
-                    <li><a href="https://linkedin.com/josecastro_dev" aria-label="LinkedIn" target="_blank"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="https://linkedin.com/in/josecastrodev" aria-label="LinkedIn" target="_blank"><span class="icon-linkedin"></span></a></li>
                     <li><a href="https://twitter.com/josecastro_dev" aria-label="Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
-                    <li><a href="https://instagram.com/josecastrodev" aria-label="Instagram" target="_blank"><span class="icon-instagram"></span></a></li>
-                    <!--                <li><a href="mailto:jose@josecastro.dev" aria-label="E-mail"><span class="icon-mail4"></span></a></li>-->
-                    <li><a href="https://goo.gl/maps/kmkBG2ziPZZnYKzU8" data-tooltip="Based in Santiago de Compostela" data-placement="bottom" aria-label="Based in Santiago de Compostela" target="_blank"><span class="icon-location2"></span></a></li>
+                    <li><a href="https://instagram.com/josecastrop" aria-label="Instagram" target="_blank"><span class="icon-instagram"></span></a></li>
+                    <li data-lang="en"><a href="https://goo.gl/maps/kmkBG2ziPZZnYKzU8" data-tooltip="Based in Santiago de Compostela" data-placement="bottom" aria-label="Based in Santiago de Compostela" target="_blank"><span class="icon-location2"></span></a></li>
+                    <li data-lang="es"><a href="https://goo.gl/maps/kmkBG2ziPZZnYKzU8" data-tooltip="Santiago de Compostela" data-placement="bottom" aria-label="Santiago de Compostela" target="_blank"><span class="icon-location2"></span></a></li>
+                    <li data-lang="gl"><a href="https://goo.gl/maps/kmkBG2ziPZZnYKzU8" data-tooltip="Santiago de Compostela" data-placement="bottom" aria-label="Santiago de Compostela" target="_blank"><span class="icon-location2"></span></a></li>
                 </ul>
             </nav>
         </section>
-        <section>
-            <select id="change-language">
-                <option value="en" selected="selected">
-                    English
-                </option>
-                <option value="es">
-                    Español
-                </option>
-                <option value="gl">
-                    Galego
-                </option>
-            </select>
-        </section>
-    </header>
-    <main class="grid content">
-        <section class="left">
-            <section class="aboutme">
-                <h3 data-lang="en">About me<span class="yellow-dot">.</span></h3>
-                <h3 data-lang="es">Sobre mi<span class="yellow-dot">.</span></h3>
-                <h3 data-lang="gl">Sobre min<span class="yellow-dot">.</span></h3>
-                <p data-lang="en">I was born in Miami in 1989 as the son of a Peruvian mother and a Spanish father, my ancestors have been migrants for generations, this is something I carry inside me and it shapes my way of being and thinking. I have lived in Santiago de Compostela since my childhood.</p>
-                <p data-lang="es">I was born in Miami in 1989 as the son of a Peruvian mother and a Spanish father, my ancestors have been migrants for generations, this is something I carry inside me and it shapes my way of being and thinking. I have lived in Santiago de Compostela since my childhood.</p>
-                <p data-lang="gl">I was born in Miami in 1989 as the son of a Peruvian mother and a Spanish father, my ancestors have been migrants for generations, this is something I carry inside me and it shapes my way of being and thinking. I have lived in Santiago de Compostela since my childhood.</p>
-
-                <p>In 1997 I was given my first computer and from the first moment I saw it I knew that I wanted my life to revolve around this technology. A few months later, the Internet came to my home, and it changed everything forever.</p>
-            </section>
-            <section>
-                <h4>Interest<span class="yellow-dot">.</span></h4>
-                <ul>
-                    <li>Movies & Books</li>
-                    <li>Sports (Obradoiro & Barça)</li>
-                    <li>Technology & Science</li>
-                    <li>Geography & History</li>
-                </ul>
-
-
-            </section>
-        </section>
-        <section class="right">
-            <section class="work-experience">
-                <h3>Work experience<span class="yellow-dot">.</span></h3>
-                <p>In 2008 I began studying for the "Advanced Expert in Developing Computer Apps" certificate and completed it in 2010 after a few months of internship in Dublin developing websites for an Irish travel agency.</p>
-                <p>I worked as a freelancer until 2015. I developed websites in various PHP-based technologies such as WordPress, Drupal or Codeigniter.</p>
-                <p>From 2015 until now I have been working at <a href="https://balidea.com">Balidea</a> as a web developer specialising in Drupal. During these years I have developed websites for different organisations depending on both the Galician and Spanish governments, although my work is mainly developed on websites of United Nations agencies.</p>
-            </section>
-            <section>
-                <h4>Skills<span class="yellow-dot">.</span></h4>
-                <h5>Advanced (all days)</h5>
-                <nav>
-                    <ul>
-                        <li><img src="assets/logos/icons8-drupal-50.png" /></li>
-                        <li><img src="assets/logos/icons8-php-logo-50.png" /></li>
-                        <li><img src="assets/logos/icons8-mysql-logo-50.png" /></li>
-                        <li><img src="assets/logos/icons8-mariadb-50.png" /></li>
-                        <li><img src="assets/logos/icons8-javascript-50.png" /></li>
-                        <li><img src="assets/logos/icons8-docker-50.png" /></li>
-                        <li><img src="assets/logos/phpstorm.png" /></li>
-                    </ul>
-                </nav>
-
-                <h5>Intermediate (used)</h5>
-                <nav>
-                    <ul>
-                        <li><img src="assets/logos/icons8-angularjs-50.png" /></li>
-                        <li><img src="assets/logos/icons8-sass-50.png" /></li>
-                        <li><img src="assets/logos/icons8-nodejs-50.png" /></li>
-                        <li><img src="assets/logos/icons8-npm-50.png" /></li>
-                        <li><img src="assets/logos/icons8-wordpress-50.png" /></li>
-                        <li><img src="assets/logos/prestashop.png" /></li>
-                    </ul>
-                </nav>
-
-            </section>
-        </section>
-    </main>
-    <footer class="grid">
-
     </footer>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/i18n-language@latest/i18n-language.js"></script>
 </body>
