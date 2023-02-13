@@ -1,0 +1,142 @@
+/**
+ * Custom CSS
+ */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@800&display=swap");
+:root {
+    --font-family: "Open Sans", sans-serif;
+    --border-radius: 0;
+    --form-element-spacing-vertical: 1rem;
+    --form-element-spacing-horizontal: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    --font-family: "Raleway", sans-serif;
+    --font-weight: 800;
+}
+
+h1 {
+    --font-size: 2.5rem;
+    --typography-spacing-vertical: 2.5rem;
+}
+
+h2 {
+    --font-size: 2rem;
+    --typography-spacing-vertical: 2rem;
+}
+
+h3 {
+    --font-size: 1.75rem;
+    --typography-spacing-vertical: 1.75rem;
+}
+
+h4 {
+    --font-size: 1.5rem;
+    --typography-spacing-vertical: 1.5rem;
+}
+
+h5 {
+    --font-size: 1.25rem;
+    --typography-spacing-vertical: 1.25rem;
+}
+
+p a {
+    color: #ffcc33;
+}
+
+body {
+    border-top: #ffcc33 5px solid;
+}
+
+body>header {
+    padding-bottom: 1rem;
+}
+
+header h1 {
+    color: #042c49;
+}
+
+header hgroup.header {
+    margin-bottom: 0.6rem;
+}
+
+.social a {
+    color: #042c49;
+    font-size: 1.20rem;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+main.content {
+    padding-top: 1rem;
+}
+
+
+footer {
+    background-color: #ffcc33;
+}
+
+.yellow-dot {
+    color: #ffcc33;
+}
+
+/**
+ * Icons
+ */
+
+@font-face {
+    font-family: 'josecastrodev';
+    src:  url('../fonts/josecastrodev.eot?btts8t');
+    src:  url('../fonts/josecastrodev.eot?btts8t#iefix') format('embedded-opentype'),
+    url('../fonts/josecastrodev.ttf?btts8t') format('truetype'),
+    url('../fonts/josecastrodev.woff?btts8t') format('woff'),
+    url('../fonts/josecastrodev.svg?btts8t#josecastrodev') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'josecastrodev' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location2:before {
+    content: "\e948";
+}
+.icon-mail4:before {
+    content: "\ea86";
+}
+.icon-facebook2:before {
+    content: "\ea91";
+}
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-linkedin:before {
+    content: "\eac9";
+}
+
+
