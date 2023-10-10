@@ -90,6 +90,10 @@ main.content {
     padding-top: 1rem;
 }
 
+section.left,
+section.right {
+    margin-right: 2.5em;
+}
 
 footer {
     background-color: #ffcc33;
@@ -148,6 +152,14 @@ footer .grid{
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+header [class^="icon-"]:hover, header [class*=" icon-"]:hover {
+    color: #FFCE00;
+}
+
+footer a:hover {
+    color: #FFFFFF;
 }
 
 .icon-location2:before {
