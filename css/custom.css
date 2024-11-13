@@ -192,3 +192,6 @@ footer a:hover {
 .icon-linkedin:before {
     content: "\eac9";
 }
+.icon-bluesky:before {
+    content: "\e900";
+}
