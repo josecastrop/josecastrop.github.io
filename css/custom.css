@@ -49,6 +49,7 @@ h5 {
 p a {
     border-bottom: 2px dashed;
     color: #333652;
+    text-decoration: none;
 }
 
 p a:hover {
@@ -57,12 +58,30 @@ p a:hover {
     text-decoration: none;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
-    border-top: #ffcc33 5px solid;
+    border-top: #ffcc33 7px solid;
 }
 
 body>header {
     padding-bottom: 1rem;
+}
+
+.page-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+main {
+    flex: 1;
 }
 
 header h1 {
@@ -96,13 +115,28 @@ section.right {
 }
 
 footer {
-    background-color: #ffcc33;
+    background-color: #FFCE00;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto;
 }
 
 footer .menu a {
     color: #042c49;
     border-bottom: 2px dashed;
     margin-right:10px;
+    padding: 0;
+    border-radius: 0;
+}
+
+footer .menu ul {
+    padding-left: 10px;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 2px solid;
 }
 
 footer .grid{
@@ -126,7 +160,6 @@ footer .grid{
 /**
  * Icons
  */
-
 @font-face {
     font-family: 'josecastrodev';
     src:  url('../fonts/josecastrodev.eot?6e0qgf');
@@ -156,10 +189,6 @@ footer .grid{
 
 header [class^="icon-"]:hover, header [class*=" icon-"]:hover {
     color: #FFCE00;
-}
-
-footer a:hover {
-    color: #FFFFFF;
 }
 
 .icon-location2:before {
@@ -194,4 +223,41 @@ footer a:hover {
 }
 .icon-bluesky:before {
     content: "\e900";
+}
+
+.language-selector {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.select-wrapper {
+    position: relative;
+    width: 150px;
+}
+
+.select-wrapper select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    color: #042c49;
+    background-color: #ffffff;
+    border: 2px solid #042c49;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.select-wrapper select:hover {
+    border-color: #FFCE00;
+}
+
+.select-wrapper select:focus {
+    outline: none;
+    border-color: #FFCE00;
+    box-shadow: 0 0 0 3px rgba(255, 206, 0, 0.2);
 }
